@@ -1,0 +1,27 @@
+:root {
+    /* Color styles */
+    --brand-violet: rgb(35, 2, 54);
+    --brand-light-green: rgb(7, 216, 118);
+    --brand-blanc: rgb(255, 255, 255);
+
+    --system-error: rgba(255, 92, 92, 1);
+    --system-success: rgba(33, 209, 132, 1);
+  
+    /* Text-size styles */
+    /* base size: base (16px) */
+    
+    --texteclas: 0.75rem;
+    --title-Bree: 1.5rem;
+    --title-lg: 1.12rem;
+
+  
+    /* Font-family styles */
+    --font-mono: 'Space Mono', monospace;
+    --font-sans-serrif: 'Mulish', sans-serif;
+  
+    /* Espaces */
+    --space1x: 8px;
+    --space2x: 16px;
+    --space3x: 24px;
+    --space4x: 48px;
+  }
