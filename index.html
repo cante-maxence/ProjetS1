@@ -10,42 +10,78 @@
 
   </head>
 
-  <body>
-    <header>
-        <img src="public/icones/Hamburger.svg"/>
-        <img src="public/img/LOGO v3 3.svg"/>
+  <body style="background-color: darkmagenta;color: floralwhite;">
+    <header class="header" >
+
+      <div class="header__start">
+        <a href="/">
+          <img class="LOGO.svg" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria">
+        </a>
+      </div>
+
+      <div class="header__end">
+
+        <button class="header__search">
+          <img src="public/icones/icon_search.svg" alt="icone de recherche">
+        </button>
+
+        <button class="header__menu-btn menu-btn"
+                @click="menuIsOpen = !menuIsOpen"
+                :class="menuIsOpen && 'menu-btn--open'">
+          <span class="menu-btn__bar"></span>
+        </button>
+
+        <!-- Menu principal -->
+        <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item"><a class="menu__link" href="chimamanda.html">Chimamanda Ngozie Adichie</a></li>
+            <li class="menu__item"><a class="menu__link" href="aba.html">La Guerre des femmes d'Aba</a></li>
+            <li class="menu__item"><a class="menu__link" href="prostitution.html">La Prostitution au Nigeria</a></li>
+            <li class="menu__item"><a class="menu__link" href="gallerie.html">Gallerie</a></li>
+            <li class="menu__item menu__item--btn"><a class="menu__link" href="autre.html">Autre projet</a></li>
+            <li class="menu__item"><a class="menu__link" href="frise.html">Frise chronologique</a></li>
+            <li class="menu__item"><a class="menu__link" href="glossaire.html">Glossaire</a></li>
+            <li class="menu__item"><a class="menu__link" href="Apropos.html">A propos de moi</a></li>
+            <li class="menu__item"><a class="menu__link" href="index2.html">Passer en Anglais</a></li>
+            <li class="menu__item"><a class="menu__link" href="video.html">Video</a></li>
+          </ul>
+        </nav>
+        <!-- Fin du menu principal -->
+      </div>
     </header>
 
 <main>
-<h1>Bienvenue sur mon petit site, c'est un Projet Scolaire de la BUT MMi Belfort-Montbéliard. Ici je vous parle du féminisme au Nigeria avec :</h1>
+<h1><strong>Bienvenue</strong> sur mon petit site, c'est un Projet Scolaire de la BUT MMi Belfort-Montbéliard. Ici je vous parle du féminisme au Nigeria avec :</h1>
 
 <section>
-    <ul>3 articles sur la féministe au Nigeria</ul>
-    <ul>Une frise chrnologique sur les dates importantes pour la féministe nigériane</ul>
-    <ul>Une galerie avec d'importantes féministes nigérianes</ul>
-    <ul>Un petit Glossaire</ul>
+  <ul>
+    <li>3 articles sur la féministe au Nigeria</li>
+    <li>Une frise chrnologique sur les dates importantes pour la féministe nigériane</li>
+    <li>Une galerie avec d'importantes féministes nigérianes</li>
+    <li>Un petit Glossaire</li>
+  </ul>
 </section>
 
     <section>
-      <a href="#">Chimamanda Ngozi Adichie</a>
+      <a href="chimamanda.html">Chimamanda Ngozi Adichie</a>
       <img src="public/img/chima.svg"/>
       Si vous demandez à quelqu'un en France de citer une féministe célèbre, il vous répondra sûrement Michelle Obama (30%) ou Malala Yousafzai (19%) mais ...
-      <h2>Plus</h2>
+      <h3>Plus</h3>
     </section>
 
     <section>
-    <a href="#">La guerre des femmes d'Aba</a>
+    <a href="aba.html">La guerre des femmes d'Aba</a>
     <img src="public/img/aba.svg"/>
     A la fin du 19ème siècle, au Nigeria,
     L'administration coloniale britannique voulait pour cela s'emparer du Nigeria ...
-    <h2>Plus</h2>
+    <h3>Plus</h3>
     </section>
 
     <section>
-    <a href="#">La Prostitution au Nigéria</a>
+    <a href="prostitution.html">La Prostitution au Nigéria</a>
     <img src="public/img/prost.svg"/>
     Au Nigeria, beaucoup de jeunes filles sont obligées par leurs parents d'aller en Europe pour apporter de l'argent pour soutenir leurs familles...
-    <h2>Plus</h2>
+    <h3>Plus</h3>
   </section>
 
 </main>
@@ -53,7 +89,7 @@
 
     <footer>
         Contactez-moi :
-        <img src="public/img/linkedin-logo 1.svg"/>
+        <a href="prostitution.html"><img src="public/img/linkedin-logo 1.svg"/></a>
         <img src="public/icones/icon_twitter.svg"/>
         <img src="public/img/email 1.svg"/>
         maxence.cante@gmail.com

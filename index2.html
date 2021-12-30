@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Fémi-Nigeria</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+
+  <body style="background-color: darkmagenta;color: floralwhite;">
+    <header class="header" >
+
+      <div class="header__start">
+        <a href="/">
+          <a href="index2.html"> <img src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria">
+        </a>
+      </div>
+
+      <div class="header__end">
+
+        <button class="header__search">
+          <img src="public/icones/icon_search.svg" alt="icone de recherche">
+        </button>
+
+        <button class="header__menu-btn menu-btn"
+                @click="menuIsOpen = !menuIsOpen"
+                :class="menuIsOpen && 'menu-btn--open'">
+          <span class="menu-btn__bar"></span>
+        </button>
+
+        <!-- Menu principal -->
+        <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+          <ul class="menu__list list-unstyled">
+            <li class="menu__item"><a class="menu__link" href="chimamanda2.html">Chimamanda Ngozie Adichie</a></li>
+            <li class="menu__item"><a class="menu__link" href="aba2.html">The war of the Aba's Women</a></li>
+            <li class="menu__item"><a class="menu__link" href="prostitution2.html">The Prostitution in Nigeria</a></li>
+            <li class="menu__item"><a class="menu__link" href="gallerie2.html">Gallery</a></li>
+            <li class="menu__item menu__item--btn"><a class="menu__link" href="autre2.html">Other project</a></li>
+            <li class="menu__item"><a class="menu__link" href="frise2.html">Timeline</a></li>
+            <li class="menu__item"><a class="menu__link" href="glossaire2.html">Glossary</a></li>
+            <li class="menu__item"><a class="menu__link" href="Apropos2.html">About me and contact</a></li>
+            <li class="menu__item"><a class="menu__link" href="index.html">Switch in French</a></li>
+            <li class="menu__item"><a class="menu__link" href="video2.html">Video</a></li>
+          </ul>
+        </nav>
+        <!-- Fin du menu principal -->
+      </div>
+    </header>
+
+<main>
+<h1><strong>Welcome</strong> Welcome on my little website, it’s a School Projet of the BUT MMi Belfort-Montbéliard. Here i’m talk about the feminism in Nigeria with :</h1>
+
+<section>
+  <ul>
+    <li>3 articles about the feminist in Nigeria</li>
+    <li>a timeline about important dates for the nigerian feminist</li>
+    <li>a gallery with important nigerian feminists</li>
+    <li>a little glossary</li>
+  </ul>
+</section>
+
+    <section>
+      <a href="chimamanda2.html">Chimamanda Ngozi Adichie</a>
+      <img src="public/img/chima.svg"/>
+      If you ask at anyone in France to cite a famous feminist, they will surely answer Michelle Obama (30%) or Malala Yousafzai (19%) but ...
+      <h3>More</h3>
+    </section>
+
+    <section>
+    <a href="aba2.html">The War of the Aba’s Women</a>
+    <img src="public/img/aba.svg"/>
+    At the end of the 19th century, in Nigeria,
+The British colonial administration wanted to take over Nigeria ...
+    <h3>More</h3>
+    </section>
+
+    <section>
+    <a href="prostitution2.html">Prostitution in Nigeria</a>
+    <img src="public/img/prost.svg"/>
+    In Nigeria a lot of young girls are forced by their parents to go to Europe to bring money to support their families. In Nigeria ...
+    <h3>More</h3>
+  </section>
+
+</main>
+    
+
+    <footer>
+        Contact me :
+        <img src="public/img/linkedin-logo 1.svg"/>
+        <img src="public/icones/icon_twitter.svg"/>
+        <img src="public/img/email 1.svg"/>
+        maxence.cante@gmail.com
+        <img src="public/img/mmilogo.svg"/>
+        <br>
+        Cante Maxence MMI A1
+        <br>
+        This Projet is a exercise of the MMI Montbéliard department
+
+    </footer>
+  </body>
+</html> 
