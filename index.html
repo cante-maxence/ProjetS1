@@ -19,17 +19,7 @@
         </a>
       </div>
 
-      <div class="header__end">
 
-        <button class="header__search">
-          <img src="public/icones/icon_search.svg" alt="icone de recherche">
-        </button>
-
-        <button class="header__menu-btn menu-btn"
-                @click="menuIsOpen = !menuIsOpen"
-                :class="menuIsOpen && 'menu-btn--open'">
-          <span class="menu-btn__bar"></span>
-        </button>
 
         <!-- Menu principal -->
         <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
@@ -38,7 +28,7 @@
             <li class="menu__item"><a class="menu__link" href="aba.html">La Guerre des femmes d'Aba</a></li>
             <li class="menu__item"><a class="menu__link" href="prostitution.html">La Prostitution au Nigeria</a></li>
             <li class="menu__item"><a class="menu__link" href="gallerie.html">Gallerie</a></li>
-            <li class="menu__item menu__item--btn"><a class="menu__link" href="autre.html">Autre projet</a></li>
+            <li class="menu__item"><a class="menu__link" href="autre.html">Autre projet</a></li>
             <li class="menu__item"><a class="menu__link" href="frise.html">Frise chronologique</a></li>
             <li class="menu__item"><a class="menu__link" href="glossaire.html">Glossaire</a></li>
             <li class="menu__item"><a class="menu__link" href="Apropos.html">A propos de moi</a></li>
@@ -46,7 +36,6 @@
             <li class="menu__item"><a class="menu__link" href="video.html">Video</a></li>
           </ul>
         </nav>
-        <!-- Fin du menu principal -->
       </div>
     </header>
 

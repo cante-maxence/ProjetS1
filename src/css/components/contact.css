@@ -1,0 +1,55 @@
+.input {
+    background-color: var(--violet);
+    border-color: var(--violet);
+    border-style: solid ;
+    margin-left: 107px;
+    border-radius: 30px;
+    width: 60%;
+}
+
+.label {
+    font-size: 14px;
+    font-family: var(--);
+    color: var(--noir);
+    position: relative;
+
+}
+
+.label1 {
+    font-size: 14px;
+    font-family: var(--m);
+    color: var(--noir);
+    position: relative;
+    padding-left: 40px;
+    padding-top: 50px;
+
+}
+
+.message {
+    background-color: var(--violet);
+    border-color: black;
+    width: 63%;
+    position: relative;
+    border-width: 1px;
+    margin-left: 80px;
+    margin-bottom: 14px;
+    border-radius: 30px;
+    opacity: 100%;
+    margin-right: 45px;
+    margin-left: 100px;
+}
+
+.but{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.fond{
+    border-radius: 30px;
+    background-color: var(--vert);
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    margin-bottom: 40px;
+}

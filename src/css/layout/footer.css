@@ -1,0 +1,47 @@
+.footer__mmi{
+    position: flex;
+}
+
+.footer__tw{
+    position: absolute;
+    padding-left: 72%;
+    padding-right: 16%;
+    padding: top 50px;
+}
+
+.footer__email{
+    position: flex;
+}
+
+.footer__li{
+    position: flex;
+    margin-left: 80px;
+}
+
+.textEmail{
+    position: absolute;
+left: 72%;
+right: 16%;
+top: 40.88%;
+bottom: 51.68%;
+}
+
+.ligne{
+    position: relative;
+}
+
+.ligneProjet{
+    position: relative;
+    text-align: center;
+}
+
+.textfooter{
+    position: relative;
+    text-align: center;
+    margin: 0px;
+}
+
+footer{
+    background-color: var(--vert);
+}
+

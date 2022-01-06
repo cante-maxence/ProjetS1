@@ -1,60 +1,105 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Femi-Nigeria : A Propos</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
-<body style="background-color: darkmagenta;color: floralwhite;">
+
+<body style="background-color: var(--violet) ;color: white;">
     <header>
-        <img src="public/icones/Hamburger.svg"/>
-        <a href="index.html"> <img src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria">
+        <a href="index.html"> <img src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
     </header>
-    
-    <h1>A Propos et Contact</h1>
+    <article class="contenuContact">
+        <h1>A Propos et Contact</h1>
 
-    <h2>Je suis Maxence Cante, j’ai 18 ans et je suis un étudiant de l’IUT Belfort-Montbéliard.
-        Ce site est un projet/exercice organisé par le département MMI.</h2>
+        <p class="">Je suis Maxence Cante, j’ai 18 ans et je suis un étudiant de l’IUT Belfort-Montbéliard.
+            Ce site est un projet/exercice organisé par le département MMI.</h2>
 
-    <section>
-        <article>
-            Voici les contacts du
-            <br>
-            Département MMI 
+        <section>
+            <p class="textContact">
+                Voici les contacts du
+                <br>
+                Département MMI
+            <p>
+        </section>
+        <br>
+        <section>
+            <p class="textContact">
+                Adresse : 4, Place Tharradin 25200 Montbéliard
+            <p>
+        </section>
+        <br>
+        <section>
+            <p class="textContact">
+                Tél : 03 81 99 47 34
+            <p>
+        </section>
+        <br>
+        <section>
+            <p class="textContact">
+                Mail DUT MMI : dut-mmi-montbeliard@univ-fcomte.fr
+            <p>
+        </section>
+        <br>
+
+        <div class="fond">
+
+
+            <label class="label1">Nom</label>
+            <input class="input" type="text">
+            
+            
+            <label class="label">E-mail</label>
+            <input class="input" type="text">
+            
+
+            <label class="label">Message</label>
+   
+            <textarea class="message"  id="Message" cols="30" rows="10"> </textarea>
+            
+            <input class="but" type="button" value="ENVOYER">
+            
+            </div>
+
     </article>
-    </section>
-    <br>
-    <section>
-        <article>
-            Adresse : 4, Place Tharradin 25200 Montbéliard
-    </article>
-    </section>
-    <br>
-    <section>
-        <article>
-            Tél : 03 81 99 47 34
-    </article>
-    </section>
-    <br>
-    <section>
-        <article>
-            Mail DUT MMI : dut-mmi-montbeliard@univ-fcomte.fr
-    </article>
-    </section>
-    <br>
+
     <footer>
-        Contactez-moi :
-        <img src="public/img/linkedin-logo 1.svg"/>
-        <img src="public/icones/icon_twitter.svg"/>
-        <img src="public/img/email 1.svg"/>
-        maxence.cante@gmail.com
-        <img src="public/img/mmilogo.svg"/>
+        <div class="footer__li">
+            <a href="#"><img src="public/img/linkedin-logo 1.svg" alt="Logo de Linkedin"></a>
+        </div>
+        <div class="footer__tw">
+            <a href="#"></a><img src="public/icones/icon_twitter.svg" alt="Logo de Twitter"></a>
+        </div>
+        <div class="footer__email">
+            <a href="#"></a><img src="public/img/email 1.svg" alt="Logo représentant une lettre"></a>
+        </div>
         <br>
-        Cante Maxence MMI A1
-        <br>
-       
-    
+
+
+        <div class="footer__mmi">
+            <a href="#"><img src="public/img/mmilogo.svg" alt="Logo du département MMI"></a>
+        </div>
+
+
+
+        <div class="textEmail">
+            <p class="textfooter"><strong>cantemaxence@gmail.com</strong></p>
+        </div>
+
+        <div class="ligne">
+            <p class="textfooter">Cante Maxence MMI A1</p>
+        </div>
+
+        <div class="ligneProjet">
+            <p class="textfooter">Ce projet est un exercice du département MMI de L’IUT Belfort-Montbéliard</p>
+        </div>
+        </div>
+        </div>
     </footer>
-    </body>
-    </html>
+</body>
+
+</html>
