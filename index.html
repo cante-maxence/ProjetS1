@@ -1,48 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="fr">
 
-    <title>Fémi-Nigeria</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Julius+Sans+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 
-
-  </head>
-
-  <body style="background-color: darkmagenta;color: floralwhite;">
-    <header class="header" >
-
-      <div class="header__start">
-        <a href="/">
-          <img class="LOGO.svg" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria">
-        </a>
-      </div>
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"> </script>
+    <title>Femi-Nigeria : Accueik</title>
+</head>
 
 
 
-        <!-- Menu principal -->
+    <header>
+
+        <a href="index.html"> <img class="logo" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
+        <div class="nav-toggle">
+            <div class="nav-toggle-bar"></div>
+        </div>
+
+
+
+
+        <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toogle-bar"></div>
+        </div>
+
         <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
-          <ul class="menu__list list-unstyled">
-            <li class="menu__item"><a class="menu__link" href="chimamanda.html">Chimamanda Ngozie Adichie</a></li>
-            <li class="menu__item"><a class="menu__link" href="aba.html">La Guerre des femmes d'Aba</a></li>
-            <li class="menu__item"><a class="menu__link" href="prostitution.html">La Prostitution au Nigeria</a></li>
-            <li class="menu__item"><a class="menu__link" href="gallerie.html">Gallerie</a></li>
-            <li class="menu__item"><a class="menu__link" href="autre.html">Autre projet</a></li>
-            <li class="menu__item"><a class="menu__link" href="frise.html">Frise chronologique</a></li>
-            <li class="menu__item"><a class="menu__link" href="glossaire.html">Glossaire</a></li>
-            <li class="menu__item"><a class="menu__link" href="Apropos.html">A propos de moi</a></li>
-            <li class="menu__item"><a class="menu__link" href="index2.html">Passer en Anglais</a></li>
-            <li class="menu__item"><a class="menu__link" href="video.html">Video</a></li>
-          </ul>
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="chimamanda.html">
+                        <p class="menutext">Chimamanda Ngozie Adichie</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="aba.html">
+                        <p class="menutext">La Guerre des femmes d'Aba</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="prostitution.html">
+                        <p class="menutext">La Prostitution au Nigeria</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="gallerie.html">
+                        <p class="menutext">Gallerie</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="autre.html">
+                        <p class="menutext">Autre projet</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="frise.html">
+                        <p class="menutext">Frise chronologique</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="glossaire.html">
+                        <p class="menutext">Glossaire</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="Apropos.html">
+                        <p class="menutext">A propos de moi</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="index2.html">
+                        <p class="menutext">Passer en Anglais</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="video.html">
+                        <p class="menutext">Video</p>
+                    </a></li>
+            </ul>
         </nav>
-      </div>
-    </header>
+        </div>
 
-<main>
+    </header>
+    <body style="background-color: #2A0337; color: floralwhite;"></body>
+    <main>
+
+
 <h1><strong>Bienvenue</strong> sur mon petit site, c'est un Projet Scolaire de la BUT MMi Belfort-Montbéliard. Ici je vous parle du féminisme au Nigeria avec :</h1>
 
-<section>
+<section class="">
   <ul>
     <li>3 articles sur la féministe au Nigeria</li>
     <li>Une frise chrnologique sur les dates importantes pour la féministe nigériane</li>

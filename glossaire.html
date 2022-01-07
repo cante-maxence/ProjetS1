@@ -1,17 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Julius+Sans+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"> </script>
     <title>Femi-Nigeria : Glossaire</title>
 </head>
-<body style="background-color: darkmagenta;color: floralwhite;">
+
+
+
     <header>
-        <img src="public/icones/Hamburger.svg"/>
-        <a href="index.html"> <img src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria">
+
+        <a href="index.html"> <img class="logo" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
+        <div class="nav-toggle">
+            <div class="nav-toggle-bar"></div>
+        </div>
+
+
+
+
+        <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toogle-bar"></div>
+        </div>
+
+        <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="chimamanda.html">
+                        <div class="menutext">Chimamanda Ngozie Adichie</div>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="aba.html">
+                        <p class="menutext">La Guerre des femmes d'Aba</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="prostitution.html">
+                        <p class="menutext">La Prostitution au Nigeria</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="gallerie.html">
+                        <p class="menutext">Gallerie</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="autre.html">
+                        <p class="menutext">Autre projet</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="frise.html">
+                        <p class="menutext">Frise chronologique</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="glossaire.html">
+                        <p class="menutext">Glossaire</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="Apropos.html">
+                        <p class="menutext">A propos de moi</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="index2.html">
+                        <p class="menutext">Passer en Anglais</p>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="video.html">
+                        <p class="menutext">Video</p>
+                    </a></li>
+            </ul>
+        </nav>
+        </div>
+
     </header>
-    
+    <body style="background-color: #2A0337; color: floralwhite;"></body>
     <h1>Glossaire</h1>
 
     <section>

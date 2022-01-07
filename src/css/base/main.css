@@ -6,10 +6,10 @@
 }
 
 body {
-  font-family: var(--font-sans-serrif);
+  font-family: var(--article16);
   font-size: var(--text-md);
   line-height: 1.6;
-  background-color: var(--gray-white);
+  background-color: var(#2A0337);
 }
 
 h1, h2 {
@@ -28,4 +28,26 @@ h2 {
 
 h3 {
   line-height: 1.4;
+}
+.texte__align {
+  margin-left:20px;
+  margin-right:20px;
+  display: flex;
+
+}
+.gallerie__nom {
+  font-family:var();
+  margin-left:20px;
+  margin-right:20px;
+  display: flex;
+}
+
+.reflet{
+  position: flex;
+  margin-top: 500px;
+}
+
+.otre{
+  
+  text-align: center;
 }

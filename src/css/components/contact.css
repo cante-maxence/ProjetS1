@@ -5,6 +5,7 @@
     margin-left: 107px;
     border-radius: 30px;
     width: 60%;
+    z-index: 7;
 }
 
 .label {
@@ -12,7 +13,7 @@
     font-family: var(--);
     color: var(--noir);
     position: relative;
-
+    z-index: 6;
 }
 
 .label1 {
@@ -22,7 +23,7 @@
     position: relative;
     padding-left: 40px;
     padding-top: 50px;
-
+    z-index: 6;
 }
 
 .message {
@@ -37,12 +38,21 @@
     opacity: 100%;
     margin-right: 45px;
     margin-left: 100px;
+    z-index: 6;
 }
 
 .but{
     position: relative;
     margin-left: 100px;
     margin-bottom: 20px;
+    z-index: 6;
+    border:none;
+    background-color: var(--violet);
+    border-radius: 40px;
+    color:white;
+    padding:10px;
+    font-family: var(--font-article16);
+
 }
 
 .fond{
@@ -50,6 +60,17 @@
     background-color: var(--vert);
     margin-left: 40px;
     margin-right: 40px;
-    
     margin-bottom: 40px;
+
+}
+
+.vraifond {
+    position: absolute;
+    border-radius: 30px;
+    background-color: var(--vert);
+    opacity: 0.5;
+    z-index: 5;
+    width: 298px;
+    height: 356.64px;
+    top: 505px;
 }

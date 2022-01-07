@@ -1,6 +1,6 @@
 :root{
       /* Color styles */
-  --violet: rgba(23, 1, 31, 1);
+  --violet: #2A0337;;
   --vert: rgba(103, 253, 118, 1);
   --bleumot: rgba(16, 255, 241, 1);
 
@@ -18,4 +18,3 @@
   --font-texttimeline: 'Rubik', serif;
   --font-article16: 'Rubik', serif;
 }
-
