@@ -1,11 +1,11 @@
-.input {
-    background-color: var(--violet);
-    border-color: var(--violet);
+.case{
+    border-color: #2A0337;
+    background-color: #2A0337;
     border-style: solid ;
-    margin-left: 107px;
+    margin-left: 100px;
     border-radius: 30px;
     width: 60%;
-    z-index: 7;
+    color: white;
 }
 
 .label {
@@ -13,6 +13,19 @@
     font-family: var(--);
     color: var(--noir);
     position: relative;
+    left: 40px;
+    top: 15px;
+    z-index: 6;
+}
+
+
+.label2 {
+    font-size: 14px;
+    font-family: var(--);
+    color: var(--noir);
+    position: relative;
+    left: 40px;
+    top: 20px;
     z-index: 6;
 }
 
@@ -22,7 +35,7 @@
     color: var(--noir);
     position: relative;
     padding-left: 40px;
-    padding-top: 50px;
+    top: 20px;
     z-index: 6;
 }
 
@@ -39,6 +52,7 @@
     margin-right: 45px;
     margin-left: 100px;
     z-index: 6;
+    color: white;
 }
 
 .but{
@@ -57,11 +71,10 @@
 
 .fond{
     border-radius: 30px;
-    background-color: var(--vert);
+    background-color: transparent;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-
 }
 
 .vraifond {
@@ -69,7 +82,7 @@
     border-radius: 30px;
     background-color: var(--vert);
     opacity: 0.5;
-    z-index: 5;
+    z-index: -1;
     width: 298px;
     height: 356.64px;
     top: 505px;

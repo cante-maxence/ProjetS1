@@ -1,3 +1,17 @@
+
+.infos{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    bottom: -20px;
+    left: 90px;
+    font-family: var(--font-texttimeline);
+    font-size: 1.7rem;
+    text-decoration: underline;
+}
+
+
+
 .footer__mmi{
     position: flex;
 }
@@ -11,21 +25,24 @@
 
 .footer__email{
     position: flex;
-    margin-left: 175px;
+    top: 50px;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 .footer__li{
-    position: flex;
-    margin-left: 80px;
-    margin-top: 30px;
+    position: relative;
+    bottom: -45px;
+    right: 90px;
+
 }
 
 .textEmail{
-    position: flex;
-    left: 72%;
-    right: 16%;
-    top: 40.88%;
-    bottom: 51.68%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding-bottom: 10px;
+
 }
 
 .ligne{
@@ -40,11 +57,15 @@
 .textfooter{
     position: relative;
     text-align: center;
-    margin: 0px;
+    top: 10px;
+
 }
 
 footer{
     background-color: var(--vert);
-    text-emphasis: center;
-    margin-top: 40px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: var(--font-texttimeline);
+    color: black;
+    padding-bottom: 10px;
 }
