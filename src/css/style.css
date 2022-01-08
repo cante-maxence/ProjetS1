@@ -11,6 +11,7 @@
 @import url("base/main.css"));
 @import url("base/media.css");
 @import url("base/icons.css");
+@import url("base/autreicon.css");
 
 /* Layout */
 @import url("layout/header.css");
@@ -20,3 +21,4 @@
 @import url("components/menu.css");
 @import url("components/contact.css");
 @import url("components/button.css");
+@import url("components/carre.css");

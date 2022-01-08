@@ -3,18 +3,19 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: var( --font-article16);
 }
 
 body {
-  font-family: var(--article16);
+  font-family: var( --font-article16);
   font-size: var(--text-md);
   line-height: 1.6;
   background-color: var(#2A0337);
 }
 
 h1, h2 {
-  font-family: var(--font-mono);
-  font-weight: normal;
+  font-family: var(--font-titrearticle);
+  font-weight: lighter;
   line-height: 1.1;
 }
 
@@ -45,9 +46,4 @@ h3 {
 .reflet{
   position: flex;
   margin-top: 500px;
-}
-
-.otre{
-  
-  text-align: center;
 }

@@ -47,7 +47,7 @@
   }
   
   .menu{
-    background-color: #6FB6A1;
+    background-color: var(--vert);
     position: fixed;
     top: 0;
     left: 0;

@@ -1,0 +1,75 @@
+.carre{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    background-color: #0D450F;
+    border-radius: 60px 60px 0px 0px;
+    font-size: 120%;
+}
+
+.carreChimamanda{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var( --font-article16);
+}
+
+.carreAba{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var( --font-article16);
+}
+
+.carreProstitution{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var( --font-article16);
+}
+
+.titreIndex{
+    justify-content: center;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px red;
+    font-family: var(--font-titrearticle);
+    font-size: 0.6rem;
+}
+
+.texteIndex{
+
+    position: relative;
+    padding-left: 30px;
+    border: 2px red;
+    font-family: var(--font-titrearticle);
+    font-size: 1rem;
+
+}
+
+.plus{
+    position: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--vert);
+    font-family: var(--font-article16);
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    color: black;
+
+}
+
+.carre a{
+    color: white;
+    text-decoration: none;
+    font-family: var(--font-article16);
+    font-size: 1.2rem;
+}
+
+.ImageIndex{
+    height: 150px;
+}
