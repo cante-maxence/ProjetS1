@@ -72,13 +72,16 @@
 .menu__item{
     margin: 0;
     padding: 0;
-    height: 50px;
+    height: 40px;
+
 }
 
 
 .menutext{
     color: var(--violet);
     font: var(--titre-article);
+    margin: 0px;
+    padding: 0px;
 }
 
 

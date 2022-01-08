@@ -11,3 +11,13 @@ img {
     font-size: var(--text-sm);
     color: var(--gray-600)
   }
+
+  .video__titre{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .video__details{
+    text-align: center;
+    font-family: var(--font-article16);
+  }

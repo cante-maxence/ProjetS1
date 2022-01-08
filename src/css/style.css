@@ -12,6 +12,7 @@
 @import url("base/media.css");
 @import url("base/icons.css");
 @import url("base/autreicon.css");
+@import url("base/textArticle.css");
 
 /* Layout */
 @import url("layout/header.css");
