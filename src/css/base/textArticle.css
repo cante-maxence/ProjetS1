@@ -98,3 +98,63 @@ text-align: center;
 
     font-family: var(--font-titrearticle);  
 }
+
+.titreArticleAba{
+    color: var(--vert);
+    margin: 20px;
+}
+
+.AbaCarte{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.Aba5{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.AbaDernier{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fondNoir{
+    align-items: center;
+}
+
+.contenuProstitution{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-family: var(--font-titrearticle);  
+}
+
+.argent{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titreArticleProstitution{
+    color: var(--vert);
+    margin: 20px;
+}
+
+.sorcier{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 250px;
+}
+
+.Noir{
+    padding-bottom: 20px;
+    height: 250px;
+}
+
+.titreArticleAncienne{
+
+    margin-top: 40px;
+    
+}

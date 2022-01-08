@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,182 +8,209 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Julius+Sans+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Julius+Sans+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"> </script>
     <title>Femi-Nigeria : La Guerre des Femmes d'Aba</title>
 </head>
 
-   
-   <header>
 
-        <a href="index.html"> <img class="logo" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
-        <div class="nav-toggle">
-            <div class="nav-toggle-bar"></div>
-        </div>
+<header>
 
-
+    <a href="index.html"> <img class="logo" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
 
 
-        <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
-            <div class="nav-toogle-bar"></div>
-        </div>
+
+
+    <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
+
+    <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item"><a class="menu__link" href="chimamanda.html">
+                    <div class="menutext">Chimamanda Ngozie Adichie</div>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="aba.html">
+                    <p class="menutext">La Guerre des femmes d'Aba</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="prostitution.html">
+                    <p class="menutext">La Prostitution au Nigeria</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="gallerie.html">
+                    <p class="menutext">Gallerie</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="autre.html">
+                    <p class="menutext">Autre projet</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="frise.html">
+                    <p class="menutext">Frise chronologique</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="glossaire.html">
+                    <p class="menutext">Glossaire</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="Apropos.html">
+                    <p class="menutext">A propos de moi</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="index2.html">
+                    <p class="menutext">Passer en Anglais</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="video.html">
+                    <p class="menutext">Video</p>
+                </a></li>
+        </ul>
+    </nav>
+    </div>
+
+</header>
+
+<body style="background-color: #2A0337; color: floralwhite;"></body>
     
-        <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
-            <ul class="menu__list list-unstyled">
-              <li class="menu__item"><a class="menu__link" href="chimamanda.html"><div class="menutext">Chimamanda Ngozie Adichie</div></a></li>
-              <li class="menu__item"><a class="menu__link" href="aba.html"><p class="menutext">La Guerre des femmes d'Aba</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="prostitution.html"><p class="menutext">La Prostitution au Nigeria</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="gallerie.html"><p class="menutext">Gallerie</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="autre.html"><p class="menutext">Autre projet</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="frise.html"><p class="menutext">Frise chronologique</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="glossaire.html"><p class="menutext">Glossaire</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="Apropos.html"><p class="menutext">A propos de moi</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="index2.html"><p class="menutext">Passer en Anglais</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="video.html"><p class="menutext">Video</p></a></li>
-            </ul>
-          </nav>
+
+<div class="contenuAba">
+<h1>La Guerre des femmes d'Aba</h1>
+
+<p>
+    À la fin du XIXe Siècle, au Nigeria,
+    L'administration coloniale britannique
+    veut s'approprier le Nigeria à moindre
+    coût pour cela au lieu d'envoyer des dirigeants
+    anglais le gouverneur-général du Nigeria,
+    Frederick Lugard à adopté un système
+    unique de gouvernance par procuration
+    par l'intermédiaire des chefs indigènes
+    désignés, en remplacement des systèmes
+    égalitaires antérieures.
+    <img class="AbaCarte" src="public/img/mapnigeria.svg" />
+</p>
+
+
+<h3 class="titreArticleAba">Problêmes</h3>
+
+Mais la plupart des Chefs de village
+ont profité de leur nouveau pouvoir pour
+terroriser la population en extorquant leurs
+sujets, en imposant des amendes et des frais
+déraisonnables. Ils ont saisi des propriétés
+privées à volonté et ont brutalisé toute
+personne opposée à leur autorité. Sauf dans
+L'Iglo région du Sud-est, les dirigeants étaient
+traditionnellement élus et pas imposés pour
+l'époque leur système était très évolué et
+égalitaire. Ils évitent toutes formes de
+concentration de pouvoir et le
+répartit donc entre les groupes du village. </p>
+
+<p>
+    <h3 class="titreArticleAba">Action</h3>
+    Les hommes de l'élite et les colons
+    en général obligent les femmes au travail
+    forcé et leur confisquent animaux et profits.
+    Les femmes qui jouaient antérieurement des rôles
+    importants dans la gouvernance politique et économique,
+    furent marginalisées et expriment leur
+    frustration à travers des danses et chants
+    de protestations dans la province du Calabar.
+    La goutte d'eau fut la taxation des femmes,
+    incluant des taxes sur les marmites, les ustensiles et
+    les vêtements. Les commerçantes s’inquiétaient des effets
+    de la nouvelle contrainte fiscale sur leurs entreprises et
+    de ce qu'elle allait devenir. Elles ont donc décidé de
+    manifester le mécontentement pacifiquement en allant
+    fermement demander au gouvernement colonial de préserver
+    leur statut, mais leur plaidoyer a été rejeté. Résolues
+    à préserver leur liberté, elles se sont engagées dans la
+    défiance en ne payant pas d’impôts et en refoulant tout
+    étranger.
+    C’est dans ce contexte de méfiance, qu'une vive dispute
+    a éclaté entre un agent du recensement et une veuve.
+    L’altercation s’est terminée par l’agression de la veuve.
+    Horrifié par cette altercation et en invoquant la coutume
+    de protestations de femmes, celles de la ville d'Okolo
+    invitèrent d'autres femmes à les rejoindre.
+
+    <img class="Aba5" src="public/img/2018.svg" />
+</p>
+
+<p>
+
+    <p>
+        <h3 class="titreArticleAba">Réaction</h3>
+
+        Venant de différentes ethnies et les
+        actions se multiplièrent en 1929 dans
+        les régions voisines, sur près de 8 000 m 2.
+        Des nuits entières, elles chantaient
+        et dansaient pour repousser les hommes,
+        bloquer les routes, détruire les propriétés
+        des chefs indigènes et du pouvoir colonial,
+        mais elles ne causèrent aucun dommage physique
+        ou humain. Les soldats ouvrirent le feu,
+        tuèrent des manifestantes désarmées et
+        brûlèrent les villages en guise de châtiment
+        collectif, mais la manifestation s’est alors
+        vite transformée d’une manifestation
+        pacifique à la résistance la plus
+        féroce que les Britanniques n’aient
+        jamais affrontée dans leurs colonies
+        africaines. Les femmes d'Aba ont détruit
+        plusieurs infrastructures britanniques,
+        ceux qui poussèrent les troupes coloniales
+        a répliqué avec une forte brutalité.
+        <br>
+        <img class="AbaDernier" src="public/img/image 34.svg" />
+    </p>
+
+</div>
+    <div class="haut-page">
+        <a href="#"><img src="public/img/haut.png" alt="bouton qui permet de remonter en haut de la page"></a>
+    </div>
+
+    <footer>
+
+        <div class="footer__li">
+
+            <div class="infos"><strong>
+                    <p>Infos</p>
+                </strong></div>
+
+            <a href="https://fr.linkedin.com/"><img src="public/img/linkedin-logo 1.svg" alt="Logo de Linkedin"></a>
+        </div>
+        <div class="footer__tw">
+            <a href="https://twitter.com/?lang=fr"></a><img src="public/icones/tw.svg" alt="Logo de Twitter"></a>
+        </div>
+        <div class="footer__email">
+            <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox"></a><img src="public/img/email 1.svg"
+                alt="Logo représentant une lettre"></a>
+        </div>
+        <br>
+
+        <div class="textEmail">
+            <p class="textfooter"><strong>cantemaxence@gmail.com</strong></p>
         </div>
 
-    </header>
-    <body style="background-color: #2A0337; color: floralwhite;"></body>
-   
-    <body style="background-color: #2A0337; color: floralwhite;"></body>
-    <h1>La Guerre des femmes d'Aba</h1>
-
-    <section>
-        À la fin du XIXe Siècle, au Nigeria, 
-        L'administration coloniale britannique
-         veut s'approprier le Nigeria à moindre 
-         coût pour cela au lieu d'envoyer des dirigeants 
-         anglais le gouverneur-général du Nigeria,
-        Frederick Lugard à adopté un système 
-        unique de gouvernance par procuration
-        par l'intermédiaire des chefs indigènes 
-        désignés, en remplacement des systèmes
-        égalitaires antérieures.
-        <img src="public/img/mapnigeria.svg"/>
-    </section>
-   
-
-    <h3>Problêmes</h3> 
-<br>  Mais la plupart des Chefs de village
- ont profité de leur nouveau pouvoir pour 
- terroriser la population en extorquant leurs
-  sujets, en imposant des amendes et des frais
-   déraisonnables. Ils ont saisi des propriétés
-    privées à volonté et ont brutalisé toute 
-    personne opposée à leur autorité. Sauf dans
-     L'Iglo région du Sud-est, les dirigeants étaient 
-     traditionnellement élus et pas imposés pour 
-     l'époque leur système était très évolué et
-      égalitaire. Ils évitent toutes formes de
-       concentration de pouvoir et le 
-       répartit donc entre les groupes du village. </section>
-
-<section>
-    <h2>Action</h2>
-    Les hommes de l'élite et les colons
-     en général obligent les femmes au travail 
-     forcé et leur confisquent animaux et profits. 
-     Les femmes qui jouaient antérieurement des rôles 
-     importants dans la gouvernance politique et économique, 
-     furent marginalisées et expriment leur 
-     frustration à travers des danses et chants 
-     de protestations dans la province du Calabar. 
-La goutte d'eau fut la taxation des femmes, 
-incluant des taxes sur les marmites, les ustensiles et 
-les vêtements. Les commerçantes s’inquiétaient des effets 
-de la nouvelle contrainte fiscale sur leurs entreprises et
- de ce qu'elle allait devenir. Elles ont donc décidé de
-  manifester le mécontentement pacifiquement en allant 
-  fermement demander au gouvernement colonial de préserver
-   leur statut, mais leur plaidoyer a été rejeté. Résolues 
-   à préserver leur liberté, elles se sont engagées dans la
-    défiance en ne payant pas d’impôts et en refoulant tout
-     étranger.
-C’est dans ce contexte de méfiance, qu'une vive dispute
- a éclaté entre un agent du recensement et une veuve. 
- L’altercation s’est terminée par l’agression de la veuve.
-  Horrifié par cette altercation et en invoquant la coutume 
-  de protestations de femmes, celles de la ville d'Okolo
-   invitèrent d'autres femmes à les rejoindre. 
-
-   <img src="public/img/2018.svg"/>
-</section>
+        <div class="footer__mmi">
+            <a href="#"><img src="public/img/mmilogo.svg" alt="Logo du département MMI"></a>
+        </div>
 
 
-<section>
+        <div class="ligne">
+            <p class="textfooter">Cante Maxence MMI A1</p>
+        </div>
 
-<section>
-<h2>Réaction</h2>
-
-Venant de différentes ethnies et les
-actions se multiplièrent en 1929 dans 
-les régions voisines, sur près de 8 000 m 2.
- Des nuits entières, elles chantaient
-  et dansaient pour repousser les hommes, 
-  bloquer les routes, détruire les propriétés
-   des chefs indigènes et du pouvoir colonial,
-    mais elles ne causèrent aucun dommage physique
-     ou humain. Les soldats ouvrirent le feu, 
-     tuèrent des manifestantes désarmées et 
-     brûlèrent les villages en guise de châtiment
-      collectif, mais la manifestation s’est alors 
-      vite transformée d’une manifestation 
-      pacifique à la résistance la plus 
-      féroce que les Britanniques n’aient 
-      jamais affrontée dans leurs colonies 
-      africaines. Les femmes d'Aba ont détruit 
-      plusieurs infrastructures britanniques, 
-      ceux qui poussèrent les troupes coloniales
-       a répliqué avec une forte brutalité.
-<br>
-<img src="public/img/image 34.svg"/>
-</section>
-
-<div class="haut-page">
-    <a href="#"><img src="public/img/haut.png" alt="bouton qui permet de remonter en haut de la page"></a>
-</div>
-
-<footer>
-
-    <div class="footer__li">
-
-        <div class="infos"><strong>
-                <p>Infos</p>
-            </strong></div>
-
-        <a href="https://fr.linkedin.com/"><img src="public/img/linkedin-logo 1.svg" alt="Logo de Linkedin"></a>
-    </div>
-    <div class="footer__tw">
-        <a href="https://twitter.com/?lang=fr"></a><img src="public/icones/tw.svg" alt="Logo de Twitter"></a>
-    </div>
-    <div class="footer__email">
-        <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox"></a><img src="public/img/email 1.svg" alt="Logo représentant une lettre"></a>
-    </div>
-    <br>
-
-    <div class="textEmail">
-        <p class="textfooter"><strong>cantemaxence@gmail.com</strong></p>
-    </div>
-
-    <div class="footer__mmi">
-        <a href="#"><img src="public/img/mmilogo.svg" alt="Logo du département MMI"></a>
-    </div>
+        <div class="ligneProjet">
+            <p class="textfooter">Ce projet est un exercice du département MMI de L’IUT Belfort-Montbéliard</p>
+        </div>
+        </div>
+        </div>
+    </footer>
 
 
-    <div class="ligne">
-        <p class="textfooter">Cante Maxence MMI A1</p>
-    </div>
+    </body>
 
-    <div class="ligneProjet">
-        <p class="textfooter">Ce projet est un exercice du département MMI de L’IUT Belfort-Montbéliard</p>
-    </div>
-    </div>
-    </div>
-</footer>
-
-
-</body>
 </html>
