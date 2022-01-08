@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,76 +8,130 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Julius+Sans+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Julius+Sans+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"> </script>
     <title>Femi-Nigeria : Chimamanda Ngozi Adichie</title>
 </head>
 
-   
-   <header>
 
-        <a href="index.html"> <img class="logo" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
-        <div class="nav-toggle">
-            <div class="nav-toggle-bar"></div>
-        </div>
+<header>
 
-
+    <a href="index.html"> <img class="logo" src="public/img/LOGO.svg" alt="Logo de Femi-Nigeria"></a>
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
+    </div>
 
 
-        <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
-            <div class="nav-toogle-bar"></div>
-        </div>
+
+
+    <div class="nav-toogle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toogle-bar"></div>
+    </div>
+
+    <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item"><a class="menu__link" href="chimamanda.html">
+                    <div class="menutext">Chimamanda Ngozie Adichie</div>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="aba.html">
+                    <p class="menutext">La Guerre des femmes d'Aba</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="prostitution.html">
+                    <p class="menutext">La Prostitution au Nigeria</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="gallerie.html">
+                    <p class="menutext">Gallerie</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="autre.html">
+                    <p class="menutext">Autre projet</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="frise.html">
+                    <p class="menutext">Frise chronologique</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="glossaire.html">
+                    <p class="menutext">Glossaire</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="Apropos.html">
+                    <p class="menutext">A propos de moi</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="index2.html">
+                    <p class="menutext">Passer en Anglais</p>
+                </a></li>
+            <li class="menu__item"><a class="menu__link" href="video.html">
+                    <p class="menutext">Video</p>
+                </a></li>
+        </ul>
+    </nav>
+    </div>
+
+</header>
+
+<body style="background-color: #2A0337; color: floralwhite;"></body>
+
+
+<main class="contenuchimamanda">
+    <div class="titreChimamanda">
+        <h1>Le Reflet des Feministes Nigériennes</h1>
+    </div>
+    <p>
+
+        Si on demande a n'importe qui de cité une féministe étrangère a un Français il vous répondra sûrement Michelle
+        Obama (30 %) ou alors Malala Yousafzai (19 %) mais il existe une femme réputée partout dans le monde mais encore
+        quasi-inconnue en France…
+
+    <h3 class="titreArticleChimamanda">Sa vie</h3> 
+    <img class="imageChimamandaJeune" src="public/img/NgoziJeune.svg"/><br><br>
+    Chimamanda Ngozi Adichie est reconnue comme une icône du Féminisme.
+    Adichie grandit sur le campus d'une université au Nigeria, alors que son père est professeur de statistiques et
+    sa mère une administratrice de l'université. L'éducation est une valeur importante dans sa famille, et, en tant
+    qu'étudiante douée, Adichie se retrouve dans une filière scientifique. Ce ne fut qu'à son arrivée aux Etats-Unis
+    pour poursuivre ses études qu'elle s'oriente vers les sciences humaines. Comme elle le raconte dans plusieurs
+    interviews ultérieures, les féministes des 1er Vagues et 2e Vagues ne l'ont jamais vraiment attirée. Ce n'était
+    pas son Histoire. Elle n'est pas arrivée au féminisme par la théorie et les livres ; elle est féministe car en
+    grandissant au Nigeria et en voyant comment sont considérées et traitées les femmes. Elles sont vues comme des
+    citoyennes de seconde zone, ce qui était "une injustice insensée".
+
+    </p>
+    <br><br>
+    <p>
+        <h3 class="titreArticleChimamanda">T.E.D Conference</h3>
+
+    Sa conférence TED en 2012 est à la fois intéressante et drôle, elle arrive à nous faire prendre conscience en
+    nous faisant rire. Par exemple en racontant une anecdote qu'il lui est arrivée à Lagos : elle est avec un ami à
+    elle, ils sont en train de se garer quand un homme vint pour les aider à manœuvrer, Chimamanda pour le remercier
+    lui donne son argent qu'elle avait gagné elle-même en tant que écrivaine et l'homme dit à son amie : "Merci
+    Monsieur". Son amie un petit peu dans le flou ne compris pas ce qui venait de ce passer en fait L'homme l'a
+    remercier lui pensant que c'était son argent qu'il avait donné a sa femme et pas celui d'une femme car selon lui
+    une femme ne peut pas gagner d'argent c'était donc forcément celui de l'Homme. Elle montre avec un simple
+    anecdote la vision des femmes au Nigeria.
+    Après sa conférence TED de 2014 elle écrit un livre, "Nous sommes tous des féministes", ce qui la propulse au
+    rang d'icônes féministe internationale. Beyoncé a notoirement samplé son intervention dans son Single
+    "Flawless". En 2017, Maria Grazia CHIURI, la directrice artistique de la marque de luxe Dior, a utilisé le titre
+    original du livre "We should all be feminists" (Nous devrions tous être féministes.) comme slogan pour sa
+    campagne de T-shirts, faisant ainsi entrer ce féminisme populaire dans le monde de la mode.
+    <br><br><br>
+    <img class="photo2014" src="public/img/TED2014.svg" />
+    <h3 class="Ted2">Ted 2014</h3>
+    <img class="photo2017" src="public/img/TED2017.svg" />
     
-        <nav class="header__menu menu" :class="menuIsOpen && 'menu--open'">
-            <ul class="menu__list list-unstyled">
-              <li class="menu__item"><a class="menu__link" href="chimamanda.html"><div class="menutext">Chimamanda Ngozie Adichie</div></a></li>
-              <li class="menu__item"><a class="menu__link" href="aba.html"><p class="menutext">La Guerre des femmes d'Aba</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="prostitution.html"><p class="menutext">La Prostitution au Nigeria</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="gallerie.html"><p class="menutext">Gallerie</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="autre.html"><p class="menutext">Autre projet</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="frise.html"><p class="menutext">Frise chronologique</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="glossaire.html"><p class="menutext">Glossaire</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="Apropos.html"><p class="menutext">A propos de moi</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="index2.html"><p class="menutext">Passer en Anglais</p></a></li>
-              <li class="menu__item"><a class="menu__link" href="video.html"><p class="menutext">Video</p></a></li>
-            </ul>
-          </nav>
-        </div>
+    <h3 class="Ted1">Ted 2017 </h3>
 
-    </header>
-    <body style="background-color: #2A0337; color: floralwhite;"></body>
-    <main class="contenuchimamanda">
-        <div class="reflet">
-    <h1>Le Reflet des Feministes Nigériennes</h1>
-        </div>
-    <section>
+    </p>
 
-    Si on demande a n'importe qui de cité une féministe étrangère a un Français il vous répondra sûrement Michelle Obama (30 %) ou alors Malala Yousafzai (19 %) mais il existe une femme réputée partout dans le monde mais encore quasi-inconnue en France… 
+    <p>
+        <h3 class="titreArticleChimamanda">Son Agression</h3>
+    <br>
+    En 2018, Adichie révéle son expérience de harcèlement sexuel alors qu'elle était une apprentie écrivaine de 17
+    ans, agressée par une figure majeure des médias. Intervenante centrale du Forum de Stockholm pour l'égalité des
+    genres, elle y a manifeste son Soutien au mouvement #METOO et elle continue à œuvrer activement et à utiliser
+    ses talents d'écriture pour combattre toutes les connotations négatives associées au fait d'être "Féministe".
+    <br><br><br>
+    <img src="public/img/agression.svg" />
 
-    <h3>Sa vie</h3> <img src="public/img/NgoziJeune.svg"/>
-Chimamanda Ngozi Adichie est reconnue comme une icône  du 
-Adichie grandit sur le campus d'une université au Nigeria, alors que son père est professeur de statistiques et sa mère une administratrice de l'université. L'éducation est une valeur importante dans sa famille, et, en tant qu'étudiante douée, Adichie se retrouve dans une filière scientifique. Ce ne fut qu'à son arrivée aux Etats-Unis pour poursuivre ses études qu'elle s'oriente vers les sciences humaines. Comme elle le raconte dans plusieurs interviews ultérieures, les féministes des 1er Vagues et 2e Vagues ne l'ont jamais vraiment attirée. Ce n'était pas son Histoire. Elle n'est pas arrivée au féminisme par la théorie et les livres ; elle est féministe car en grandissant au Nigeria et en voyant comment sont considérées et traitées les femmes. Elles sont vues comme des citoyennes de seconde zone, ce qui était "une injustice insensée". 
-        
-    </section>
-
-<section>
-<h3>T.E.D Conference</h3>
-
-Sa conférence TED en 2012 est à la fois intéressante et drôle, elle arrive à nous faire prendre conscience en nous faisant rire. Par exemple en racontant une anecdote qu'il lui est arrivée à Lagos : elle est avec un ami à elle, ils sont en train de se garer quand un homme vint pour les aider à manœuvrer, Chimamanda pour le remercier lui donne son argent qu'elle avait gagné elle-même en tant que écrivaine et l'homme dit à son amie : "Merci Monsieur". Son amie un petit peu dans le flou ne compris pas ce qui venait de ce passer en fait L'homme l'a remercier lui pensant que c'était son argent qu'il avait donné a sa femme et pas celui d'une femme car selon lui une femme ne peut pas gagner d'argent c'était donc forcément celui de l'Homme. Elle montre avec un simple anecdote la vision des femmes au Nigeria.
-Après sa conférence TED de 2014 elle écrit un livre, "Nous sommes tous des féministes", ce qui la propulse au rang d'icônes féministe internationale. Beyoncé a notoirement samplé son intervention dans son Single "Flawless". En 2017, Maria Grazia CHIURI, la directrice artistique de la marque de luxe Dior, a utilisé le titre original du livre "We should all be feminists" (Nous devrions tous être féministes.) comme slogan pour sa campagne de T-shirts, faisant ainsi entrer ce féminisme populaire dans le monde de la mode.
- 
-<img src="public/img/TED2014.svg"/>Ted 2014
-<img src="public/img/TED2017.svg"/>Ted 2017
-</section>
-<section>
-<h2>Son Agression</h2>
-<br>
-En 2018, Adichie révéle son expérience de harcèlement sexuel alors qu'elle était une apprentie écrivaine de 17 ans, agressée par une figure majeure des médias. Intervenante centrale du Forum de Stockholm pour l'égalité des genres, elle y a manifeste son Soutien au mouvement #METOO et elle continue à œuvrer activement et à utiliser ses talents d'écriture pour combattre toutes les connotations négatives associées au fait d'être "Féministe". 
-<br>
-<img src="public/img/agression.svg"/>
-
-</section>
+    </p>
 </main>
 <div class="haut-page">
     <a href="#"><img src="public/img/haut.png" alt="bouton qui permet de remonter en haut de la page"></a>
@@ -96,7 +151,8 @@ En 2018, Adichie révéle son expérience de harcèlement sexuel alors qu'elle �
         <a href="https://twitter.com/?lang=fr"></a><img src="public/icones/tw.svg" alt="Logo de Twitter"></a>
     </div>
     <div class="footer__email">
-        <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox"></a><img src="public/img/email 1.svg" alt="Logo représentant une lettre"></a>
+        <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox"></a><img src="public/img/email 1.svg"
+            alt="Logo représentant une lettre"></a>
     </div>
     <br>
 
@@ -122,4 +178,5 @@ En 2018, Adichie révéle son expérience de harcèlement sexuel alors qu'elle �
 
 
 </body>
+
 </html>

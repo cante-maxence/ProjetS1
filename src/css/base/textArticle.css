@@ -44,4 +44,57 @@
     font-size: 1.2rem;
 }
 
-.textConatct
+.contenuPropos{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: var(--font-titrearticle);
+}
+
+.contenuchimamanda{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-family: var(--font-titrearticle);  
+}
+
+.titreArticleChimamanda{
+    color: var(--vert);
+    margin: 20px;
+}
+
+.imageChimamandaJeune{
+    align-items: center;
+    position: relative;
+    padding-left: 75px;
+    height: 250px;
+}
+
+.photo2014{
+    position: flex;
+    margin-left: 91px;
+    margin-top:auto;
+}
+
+.photo2017{
+position: relative;
+margin-left: 100px;
+
+}
+
+.Ted1{
+text-align: center;
+}
+
+.Ted2{
+    text-align: center;
+}
+
+.contenuAba{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-family: var(--font-titrearticle);  
+}
