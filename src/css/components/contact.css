@@ -87,3 +87,18 @@
     height: 366.64px;
     top: 520px;
 }
+
+
+.butAnglais{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    z-index: 6;
+    border:none;
+    background-color: var(--violet);
+    border-radius: 40px;
+    color:white;
+    padding:10px;
+    font-family: var(--font-article16);
+    bottom: 13px;
+}
