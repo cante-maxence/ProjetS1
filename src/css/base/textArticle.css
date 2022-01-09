@@ -36,12 +36,16 @@
     text-align: center;
     margin: 20px;
     font-family: var(--font-titrearticle);
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+.textFrise{
+    font-size: 1.5rem;
 }
 
 .Date{
     color: var(--vert);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .contenuPropos{
@@ -121,6 +125,7 @@ text-align: center;
 
 .fondNoir{
     align-items: center;
+
 }
 
 .contenuProstitution{
@@ -149,7 +154,7 @@ text-align: center;
 }
 
 .Noir{
-    padding-bottom: 20px;
+    padding-top: 20px;
     height: 250px;
 }
 
@@ -157,4 +162,10 @@ text-align: center;
 
     margin-top: 40px;
     
+}
+
+.SurTitrePhrase{
+    text-align: center;
+    color: var(--vert);
+    font-size: 1.2rem;
 }
