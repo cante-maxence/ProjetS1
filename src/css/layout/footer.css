@@ -3,8 +3,7 @@
     position: relative;
     justify-content: center;
     text-align: center;
-    bottom: -20px;
-    left: 90px;
+    right: 100px;
     font-family: var(--font-texttimeline);
     font-size: 1.7rem;
     text-decoration: underline;
@@ -17,23 +16,21 @@
 }
 
 .footer__tw{
-    position: absolute;
-    padding-left: 72%;
-    padding-right: 16%;
-    padding: top 50px;
+    position: relative;
+    right: 100px;
+    bottom: 19px;
 }
 
 .footer__email{
-    position: flex;
-    top: 50px;
+    position: relative;
     justify-content: center;
-    margin-top: 40px;
+
 }
 
 .footer__li{
     position: relative;
-    bottom: -45px;
-    right: 90px;
+    left: 100px;
+    top: 30px;
 
 }
 
