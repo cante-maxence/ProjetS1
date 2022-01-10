@@ -65,6 +65,7 @@
 .menu__link {
     color: white;
     font-family: var(--titre-article);
+    
 
 }
 
@@ -79,9 +80,20 @@
 .menutext{
     color: var(--violet);
     font: var(--titre-article);
+    text-align: left;
     margin: 0px;
     padding: 0px;
+    font-size: 1.3rem;
+
 }
+
+.logoMenu{
+  position: relative;
+justify-content: center;
+margin: 10px;
+  
+}
+
 
 
   .menu-open .menu{
