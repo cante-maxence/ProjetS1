@@ -10,7 +10,7 @@
 
 .label {
     font-size: 14px;
-    font-family: var(--);
+    font-family: var(--font-article16);
     color: var(--noir);
     position: relative;
     left: 40px;
@@ -27,6 +27,7 @@
     left: 40px;
     top: 20px;
     z-index: 6;
+    font-family: var(--font-article16);
 }
 
 .label1 {
@@ -37,6 +38,7 @@
     padding-left: 40px;
     top: 20px;
     z-index: 6;
+    font-family: var(--font-article16);
 }
 
 .message {
