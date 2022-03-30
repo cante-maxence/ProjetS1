@@ -1,171 +1,87 @@
-.titreGlossaire{
-    text-align: center;
-    font-family: var(--font-titrearticle);
+.exp1{
+
+    margin-top: 10%;
+    margin-left: 320px;
+    border-radius:  5px red;
+    text-shadow: 0 0 2px red
 }
 
-.Definition{
-    text-align: center;
-    color: var(--vert);
-    font-family: var(--font-titrearticle);
-    font-size: 120%;
-}
 
-.contenuGlossaire{
-    text-align: center;
-    margin: 20px;
-    font-family: var(--font-titrearticle);
-}
-
-.contenuGallerie{
-    text-align: center;
-    margin: 20px;
-    font-family: var(--font-titrearticle);
-}
-
-.gallerie__nom {
-    margin-left:20px;
-    margin-right:20px;
-    display: flex;
-    color: var(--vert);
-    text-align: center;
-    justify-content: center;
-    font-size: 1.2rem;
+  
+  .words {
+    margin-top: 80px;
+    margin-left: 45%;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-justify: center;
+    position: center;
+  }
+  
+  .words1 {
+    margin-top: 80px;
+    margin-left: 30%;
+    color: #FFFFFF;
+    font-size: 0;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-left: 50%;
   }
 
-  .contenuFrise{
-    text-align: center;
-    margin: 20px;
-    font-family: var(--font-titrearticle);
-    font-size: 1rem;
-}
+  .words span {
+    font-size: 2rem;
+    display: inline-block;
+    animation: move 3s ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+    50% {
+      text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+    }
+    100% {
+      transform: translate(30%, 0);
+    }
+  }
+  
+  .words span:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .words span:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  .words span:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  
+  .words span:nth-child(5) {
+    animation-delay: 2s;
+  }
+  
+  .words span:nth-child(6) {
+    animation-delay: 2.5s;
+  }
+  
+  .words span:nth-child(7) {
+    animation-delay: 3s;
+  }
+  
 
-.textFrise{
-    font-size: 1.5rem;
-}
+  .sources{
+      position:absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 12px;
+  }
 
-.Date{
-    color: var(--vert);
-    font-size: 1.5rem;
-}
-
-.contenuPropos{
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-family: var(--font-titrearticle);
-}
-
-.contenuchimamanda{
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
-
-    font-family: var(--font-titrearticle);  
-}
-
-.titreArticleChimamanda{
-    color: var(--vert);
-    margin: 20px;
-}
-
-.imageChimamandaJeune{
-    align-items: center;
-    position: relative;
-    padding-left: 75px;
-    height: 250px;
-}
-
-.photo2014{
-    position: flex;
-    margin-left: 91px;
-    margin-top:auto;
-}
-
-.photo2017{
-position: relative;
-margin-left: 100px;
-
-}
-
-.Ted1{
-text-align: center;
-}
-
-.Ted2{
-    text-align: center;
-}
-
-.contenuAba{
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
-
-    font-family: var(--font-titrearticle);  
-}
-
-.titreArticleAba{
-    color: var(--vert);
-    margin: 20px;
-}
-
-.AbaCarte{
-    margin-top: 30px;
-    margin-left: 35px;
-}
-
-.Aba5{
-    padding-top: 40px;
-    padding-left: 40px;
-}
-
-.AbaDernier{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.fondNoir{
-    align-items: center;
-
-}
-
-.contenuProstitution{
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
-
-    font-family: var(--font-titrearticle);  
-}
-
-.argent{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.titreArticleProstitution{
-    color: var(--vert);
-    margin: 20px;
-}
-
-.sorcier{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 250px;
-}
-
-.Noir{
-    padding-top: 20px;
-    height: 250px;
-}
-
-.titreArticleAncienne{
-
-    margin-top: 40px;
-    
-}
-
-.SurTitrePhrase{
-    text-align: center;
-    color: var(--vert);
-    font-size: 1.2rem;
-}
+  .text-info{
+      position: absolute;
+      bottom: 1000px;
+  }

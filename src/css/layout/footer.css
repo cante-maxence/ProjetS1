@@ -1,68 +1,69 @@
+.slogan{
+    text-align: center;
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-.infos{
-    position: relative;
+.Case{
+    display: block;
+    position: absolute;
+    margin-left: 15%;
+    margin-bottom: 15%;
     justify-content: center;
-    text-align: center;
-    right: 100px;
-    font-family: var(--font-texttimeline);
-    font-size: 1.7rem;
-    text-decoration: underline;
+    border-radius: 50px;
+    border-style: double;
+    border-color: cornsilk;
+    padding: 5%;
+    font-size: 2rem;
+}
+.text-case{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 150px;
+    margin-left: 0px;
+}
+
+.boite{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 15px;
 }
 
 
-
-.footer__mmi{
-    position: flex;
-}
-
-.footer__tw{
-    position: relative;
-    right: 100px;
-    bottom: 19px;
-}
-
-.footer__email{
-    position: relative;
+.Case1{
+    display: block;
+    position: absolute;
+    margin-left: 55%;
+    margin-bottom: 15%;
     justify-content: center;
-
+    border-radius: 50px;
+    border-style: double;
+    border-color: cornsilk;
+    padding: 5%;
+    font-size: 1.4rem;
 }
 
-.footer__li{
-    position: relative;
-    left: 100px;
-    top: 30px;
 
+.box{
+    border-radius: 50px;
+    border-style: solid;
+    border-color: darkgrey;
+    text-justify: center;
+    text-align: center;
+    margin: 28px;
 }
 
-.textEmail{
-    display: flex;
+.Case2{
+    display: block;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 27.5%;
     justify-content: center;
-    margin-top: 0px;
-    padding-bottom: 10px;
-
-}
-
-.ligne{
-    position: relative;
-}
-
-.ligneProjet{
-    position: relative;
-    text-align: center;
-}
-
-.textfooter{
-    position: relative;
-    text-align: center;
-    top: 10px;
-
-}
-
-footer{
-    background-color: var(--vert);
-    text-align: center;
-    padding-top: 0px;
-    font-family: var(--font-texttimeline);
-    color: black;
-    padding-bottom: 10px;
+    border-radius: 50px;
+    border-style: double;
+    border-color: cornsilk;
+    padding: 5%;
+    font-size: 1.4rem;
+    margin-bottom: 150px;
 }

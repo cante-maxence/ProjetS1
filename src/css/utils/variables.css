@@ -1,20 +1,15 @@
 :root{
       /* Color styles */
   --violet: #2A0337;
-  --vert: rgba(103, 253, 118, 1);
+  --vert: rgba(0, 0, 0, 0);
   --bleumot: rgba(16, 255, 241, 1);
 
   --system-error: rgba(255, 92, 92, 1);
   --system-success: rgba(33, 209, 132, 1);
   
-  /* Text-size styles */
-  /* base size: article16 (16px) */
-  --titre-article: 1.38rem;
-  --text-timeline: 1.38rem;
-  --article16: 1rem;
+
 
   /* Font-family styles */
-  --font-titrearticle: 'Bree Serif', serif;
-  --font-texttimeline: 'Rubik', serif;
-  --font-article16: 'Rubik', serif;
+  --font-comfortaa: 'Comfortaa', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
 }

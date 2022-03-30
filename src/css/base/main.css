@@ -10,25 +10,29 @@ body {
   font-family: var( --font-article16);
   font-size: var(--text-md);
   line-height: 1.6;
-  background-color: var(#2A0337);
+  background-color: var(#white);
 }
 
 h1, h2 {
-  font-family: var(--font-titrearticle);
+  
   font-weight: lighter;
   line-height: 1.1;
+
 }
 
 h1 {
-  font-size: var(--title-xxl);
+  font-size: var(--title-xxl);font-family:  var(--font-comfortaa);
+  font-family:  var(--font-comfortaa);
 }
 
 h2 {
-  font-size: var(--title-xl);
+  font-size: 2rem;
+  font-family:  var(--font-comfortaa);
 }
 
 h3 {
   line-height: 1.4;
+  font-family:  var(--font-comfortaa);
 }
 .texte__align {
   margin-left:20px;
@@ -37,8 +41,18 @@ h3 {
 
 }
 
+p {
+  font-family: var(--font-comfortaa);
+
+}
 
 .reflet{
   position: flex;
   margin-top: 500px;
+}
+
+
+.a{
+  color: aliceblue;
+  text-decoration: none;
 }

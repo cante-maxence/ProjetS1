@@ -1,9 +1,4 @@
-.logo{
-    position: flex;
-      margin-left: 76px;
-      top: 0;
-}
-
-header{
-    background-color: var(--vert);
+.header{
+    justify-content: center;
+    padding: 200px;
 }
